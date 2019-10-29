@@ -13,6 +13,10 @@
 ## Index
 
 * [deep-learning](#deep-learning)
+    * [tensorflow](#tensor-flow-tutorials)
+    * [theano](#theano-tutorials)
+    * [keras](#keras-tutorials)
+    * [caffe](#deep-learning-misc)
 * [scikit-learn](#scikit-learn)
 * [statistical-inference-scipy](#statistical-inference-scipy)
 * [pandas](#pandas)
@@ -53,6 +57,7 @@ Additional TensorFlow tutorials:
 * [nlintz/TensorFlow-Tutorials](https://github.com/nlintz/TensorFlow-Tutorials)
 * [alrojo/tensorflow-tutorial](https://github.com/alrojo/tensorflow-tutorial)
 * [BinRoot/TensorFlow-Book](https://github.com/BinRoot/TensorFlow-Book)
+* [tuanavu/tensorflow-basic-tutorials](https://github.com/tuanavu/tensorflow-basic-tutorials)
 
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -104,18 +109,18 @@ Additional TensorFlow tutorials:
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | keras | Keras is an open source neural network library written in Python. It is capable of running on top of either Tensorflow or Theano. |
-| [setup](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/0.%20Preamble.ipynb) | Learn about the tutorial goals and how to set up your Keras environment. |
-| [intro-deep-learning-ann](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/1.1%20Introduction%20-%20Deep%20Learning%20and%20ANN.ipynb) | Get an intro to deep learning with Keras and Artificial Neural Networks (ANN). |
-| [theano](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/1.2%20Introduction%20-%20Theano.ipynb) | Learn about Theano by working with weights matrices and gradients. |
-| [keras-otto](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/1.3%20Introduction%20-%20Keras.ipynb) | Learn about Keras by looking at the Kaggle Otto challenge. |
-| [ann-mnist](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/1.4%20(Extra)%20A%20Simple%20Implementation%20of%20ANN%20for%20MNIST.ipynb) | Review a simple implementation of ANN for MNIST using Keras. |
-| [conv-nets](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/2.1%20Supervised%20Learning%20-%20ConvNets.ipynb) | Learn about Convolutional Neural Networks (CNNs) with Keras. |
-| [conv-net-1](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/2.2.1%20Supervised%20Learning%20-%20ConvNet%20HandsOn%20Part%20I.ipynb) | Recognize handwritten digits from MNIST using Keras - Part 1. |
-| [conv-net-2](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/2.2.2%20Supervised%20Learning%20-%20ConvNet%20HandsOn%20Part%20II.ipynb) | Recognize handwritten digits from MNIST using Keras - Part 2. |
-| [keras-models](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/2.3%20Supervised%20Learning%20-%20Famous%20Models%20with%20Keras.ipynb) | Use pre-trained models such as VGG16, VGG19, ResNet50, and Inception v3 with Keras. |
-| [auto-encoders](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/3.1%20Unsupervised%20Learning%20-%20AutoEncoders%20and%20Embeddings.ipynb) | Learn about Autoencoders with Keras. |
-| [rnn-lstm](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/3.2%20RNN%20and%20LSTM.ipynb) | Learn about Recurrent Neural Networks (RNNs) with Keras. |
-| [lstm-sentence-gen](http://nbviewer.ipython.org/github/leriomaggio/deep-learning-keras-tensorflow/blob/master/3.3%20(Extra)%20LSTM%20for%20Sentence%20Generation.ipynb) |  Learn about RNNs using Long Short Term Memory (LSTM) networks with Keras. |
+| [setup](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/0.%20Preamble.ipynb) | Learn about the tutorial goals and how to set up your Keras environment. |
+| [intro-deep-learning-ann](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/1.1%20Introduction%20-%20Deep%20Learning%20and%20ANN.ipynb) | Get an intro to deep learning with Keras and Artificial Neural Networks (ANN). |
+| [theano](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/1.2%20Introduction%20-%20Theano.ipynb) | Learn about Theano by working with weights matrices and gradients. |
+| [keras-otto](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/1.3%20Introduction%20-%20Keras.ipynb) | Learn about Keras by looking at the Kaggle Otto challenge. |
+| [ann-mnist](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/1.4%20%28Extra%29%20A%20Simple%20Implementation%20of%20ANN%20for%20MNIST.ipynb) | Review a simple implementation of ANN for MNIST using Keras. |
+| [conv-nets](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/2.1%20Supervised%20Learning%20-%20ConvNets.ipynb) | Learn about Convolutional Neural Networks (CNNs) with Keras. |
+| [conv-net-1](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/2.2.1%20Supervised%20Learning%20-%20ConvNet%20HandsOn%20Part%20I.ipynb) | Recognize handwritten digits from MNIST using Keras - Part 1. |
+| [conv-net-2](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/2.2.2%20Supervised%20Learning%20-%20ConvNet%20HandsOn%20Part%20II.ipynb) | Recognize handwritten digits from MNIST using Keras - Part 2. |
+| [keras-models](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/2.3%20Supervised%20Learning%20-%20Famous%20Models%20with%20Keras.ipynb) | Use pre-trained models such as VGG16, VGG19, ResNet50, and Inception v3 with Keras. |
+| [auto-encoders](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/3.1%20Unsupervised%20Learning%20-%20AutoEncoders%20and%20Embeddings.ipynb) | Learn about Autoencoders with Keras. |
+| [rnn-lstm](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/3.2%20RNN%20and%20LSTM.ipynb) | Learn about Recurrent Neural Networks (RNNs) with Keras. |
+| [lstm-sentence-gen](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/deep-learning/keras-tutorial/3.3%20%28Extra%29%20LSTM%20for%20Sentence%20Generation.ipynb) |  Learn about RNNs using Long Short Term Memory (LSTM) networks with Keras. |
 
 ### deep-learning-misc
 
@@ -368,14 +373,10 @@ For detailed instructions, scripts, and tools to set up your development environ
 
 ### running-notebooks
 
-To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the ipython notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
+To view interactive content or to modify elements within the IPython notebooks, you must first clone or download the repository then run the notebook.  More information on IPython Notebooks can be found [here.](http://ipython.org/notebook.html)
 
     $ git clone https://github.com/donnemartin/data-science-ipython-notebooks.git
     $ cd data-science-ipython-notebooks
-    $ ipython notebook
-
-If you have Jupyter Notebook 4+, run the following instead of `ipython notebook`:
-
     $ jupyter notebook
 
 Notebooks tested with Python 2.7.x.
@@ -416,6 +417,8 @@ Feel free to contact me to discuss any issues, questions, or comments.
 This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
 
 The content developed by Donne Martin is distributed under the following license:
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
 
     Copyright 2015 Donne Martin
 
